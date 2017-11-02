@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "nodejs with expressjs framework app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunpraxad/node.git"
+  },
+  "author": "arunpraxad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunpraxad/node/issues"
+  },
+  "homepage": "https://github.com/arunpraxad/node#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
