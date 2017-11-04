@@ -1,0 +1,11 @@
+extend layout
+block content
+    h1 Add Articals
+    form(method='POST', action='/artical/add')
+        #form-group
+            label Title:
+            input.form-control(type="text", name='title')
+        #form-group
+            lable Description
+            textarea.form-control(name='body')
+        input.btn.btn-success(type='submit', value='submit')

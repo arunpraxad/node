@@ -1,0 +1,12 @@
+extend layout
+block content
+    p hello world!!!
+    //h1=message
+    div 
+        ul
+            each val in message
+                li=val.id
+                li=val.name
+                li=val.description
+    div
+        imput(type='text')
